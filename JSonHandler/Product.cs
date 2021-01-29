@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
-using System.Text;
 
 namespace JSonHandler
 {
@@ -15,16 +13,6 @@ namespace JSonHandler
         public decimal Price { get; set; }
 
         public ICollection<string> Sizes { get; set; }
-
-        public override string ToString()
-        {
-            var sb = new StringBuilder();
-            sb.AppendLine($"Name:{Name}");
-            sb.AppendLine($"ExpiryDate:{ExpiryDate.ToLongDateString()}");
-            sb.AppendLine($"Price:{Price.ToString(CultureInfo.CurrentCulture)}");
-            sb.AppendLine($"Sizes:{Sizes}");
-            return sb.ToString();
-        }
 
         public bool Equals(Product other)
         {

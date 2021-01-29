@@ -13,7 +13,8 @@ namespace JSonHandler
             StreamWriter sw = null;
             try
             {
-                var output = JsonConvert.SerializeObject(obj);
+                var settings = new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.All };
+                var output = JsonConvert.SerializeObject(obj,Formatting.Indented,settings);
                 Console.WriteLine(output);
                 sw = File.CreateText(filename);
                 sw.WriteLine(output);

@@ -1,0 +1,65 @@
+[
+  {
+    "DeviceId": "dhd-matrix",
+    "Host": "134.25.46.146",
+    "Port": 9000,
+    "DeviceType": "DhdMatrix",
+    "ReconnectInterval": 5000
+  },
+
+  {
+    "DeviceId": "KVBREF-ME-TEST-01",
+    "Host": "KVBREF-ME-TEST-01.sr.se",
+    "Port": 50099,
+    "DeviceType": "MeAresMixer",
+    "ReconnectInterval": 5000,
+    "KeepAliveInterval": 4000,
+
+    "Components": [
+      {
+        "MixerAntennaConfiguration": {
+          "Antennas": [
+            {
+              "RemoteAntennaId": 2,
+              "DhdGpiIndexPrepare": -1,
+              "DhdGpiIndexOnAir": 1,
+              "DhdGpiIndexOffAir": 2,
+              "DhdGpoIndexOnAir": 1
+            },
+            {
+              "RemoteAntennaId": 3,
+              "DhdGpiIndexPrepare": -1,
+              "DhdGpiIndexOnAir": -1,
+              "DhdGpiIndexOffAir": -1,
+              "DhdGpoIndexOnAir": -1
+            }
+          ],
+          "UserName": "testuser",
+          "Password": "testpassword"
+        }
+      },
+      {
+        "AnotherMixerAntennaConfiguration": {
+          "Antennas": [
+            {
+              "RemoteAntennaId": 2,
+              "DhdGpiIndexPrepare": -1,
+              "DhdGpiIndexOnAir": 1,
+              "DhdGpiIndexOffAir": 2,
+              "DhdGpoIndexOnAir": 1
+            },
+            {
+              "RemoteAntennaId": 3,
+              "DhdGpiIndexPrepare": -1,
+              "DhdGpiIndexOnAir": -1,
+              "DhdGpiIndexOffAir": -1,
+              "DhdGpoIndexOnAir": -1
+            }
+          ],
+          "UserName": "testuser",
+          "Password": "testpassword"
+        }
+      }
+    ]
+  }
+]
