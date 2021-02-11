@@ -2,7 +2,7 @@
 
 namespace JSonHandler
 {
-    public class AntennaConfiguration
+    public abstract class AntennaConfiguration
     {
         public List<Antenna> Antennas = new List<Antenna>();
         public string UserName { get; set; }

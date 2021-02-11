@@ -1,14 +1,10 @@
 using System;
-using System.IO;
-using System.Net.WebSockets;
 using Xunit;
 
 namespace JSonHandler.Test
 {
     public class FileHandlerTest
     {
-        
-
         [Fact]
         public void TestWriteAndRead()
         {

@@ -1,7 +1,6 @@
-﻿using Newtonsoft.Json;
-
-namespace JSonHandler
+﻿namespace JSonHandler
 {
+    
     
     public class MixerAntennaConfiguration : AntennaConfiguration
     {

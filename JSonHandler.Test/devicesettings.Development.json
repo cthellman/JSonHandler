@@ -17,29 +17,8 @@
 
     "Components": [
       {
-        "MixerAntennaConfiguration": {
-          "Antennas": [
-            {
-              "RemoteAntennaId": 2,
-              "DhdGpiIndexPrepare": -1,
-              "DhdGpiIndexOnAir": 1,
-              "DhdGpiIndexOffAir": 2,
-              "DhdGpoIndexOnAir": 1
-            },
-            {
-              "RemoteAntennaId": 3,
-              "DhdGpiIndexPrepare": -1,
-              "DhdGpiIndexOnAir": -1,
-              "DhdGpiIndexOffAir": -1,
-              "DhdGpoIndexOnAir": -1
-            }
-          ],
-          "UserName": "testuser",
-          "Password": "testpassword"
-        }
-      },
-      {
-        "AnotherMixerAntennaConfiguration": {
+        "MixerAntennaConfiguration":
+        {
           "Antennas": [
             {
               "RemoteAntennaId": 2,
